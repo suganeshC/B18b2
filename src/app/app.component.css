@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    color: white;
+    background-color: #282A35;
+    position: sticky;
+    font-size: 20px;
+    padding: 8px;
+
+}
+a{
+    color: #ffffff;
+    padding: 8px;
+   text-decoration: none;
+   
+}
+a.active{
+    background-color: #04A76B;
+    color: #282A35;
+}
+.video{
+    float: right;
+}
