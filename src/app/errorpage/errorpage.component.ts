@@ -7,10 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./errorpage.component.css']
 })
 export class ErrorpageComponent implements OnInit {
-
-  constructor(private _router:Router) { }
+  public urlName: string = "";
+  constructor(private _router:Router) { 
+    
+  }
 
   ngOnInit(): void {
+  
+    this.urlName = this._router.url;
+        console.log(this._router.url);
   }
   goToHome(){
     this._router.navigateByUrl('home');
